@@ -7,9 +7,10 @@ html {
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   height: 100%;
+  background-color: rgb(30, 36, 52);
 }
 
-body > .container {
+body>.container {
   padding: 60px 15px 0;
 }
 
@@ -17,7 +18,7 @@ body > .container {
   margin: 20px 0;
 }
 
-body > .container-fluid {
+body>.container-fluid {
   padding: 60px 15px 0;
 }
 
@@ -44,3 +45,42 @@ input {
   border: 0;
   z-index: 20000;
 }
+
+h1 {
+  color: #f54748;
+  opacity: 1;
+  font-weight: 700;
+}
+
+#block1chain1well,
+#block2chain1well,
+#block3chain1well,
+#block4chain1well,
+#block5chain1well,
+#block1chain2well,
+#block2chain2well,
+#block3chain2well,
+#block4chain2well,
+#block5chain2well,
+#block1chain3well,
+#block2chain3well,
+#block3chain3well,
+#block4chain3well,
+#block5chain3well,
+.well {
+  background-color: rgb(8, 14, 26) !important;
+  border-color: rgb(8, 14, 26);
+}
+
+
+
+label,
+h3 {
+  color: #fff;
+}
+
+input,
+textarea {
+  opacity: 0.85;
+}
+
